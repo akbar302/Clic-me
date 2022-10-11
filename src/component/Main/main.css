@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../images/netfix-main-img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fm{
+  width: 30rem;
+  height: 3rem;
+  list-style-type: none;
+  margin-top: 10px;
+} 
+
+.bt{
+  width: 10rem;
+  height: 3.4rem;
+  background-color: red;
+  color: white;
+  list-style-type: none;
+ 
+}
+
+.main h1{
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.main h2{
+  font-size: 45px;
+  margin-top: 10px;
+}
+.main h3{
+  font-size: 40px;
+  margin-top: 10px;
+}.main h4{
+  font-size: 20px;
+  margin-top: 10px;
+}
