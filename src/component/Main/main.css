@@ -1,50 +1,54 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 .main {
-  width: 100%;
-  height: 90vh;
+  height: 100vh;
+  background-color: rgb(241, 13, 13);
   display: flex;
-  color: white;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  background-image: url(../../images/netfix-main-img.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.fm{
-  width: 30rem;
-  height: 3rem;
-  list-style-type: none;
-  margin-top: 10px;
-} 
-
-.bt{
-  width: 10rem;
-  height: 3.4rem;
-  background-color: red;
-  color: white;
-  list-style-type: none;
- 
+  justify-content:space-between;
+  color:red;
 }
 
 .main h1{
   font-size: 50px;
-  margin-top: 10px;
 }
 
-.main h2{
-  font-size: 45px;
-  margin-top: 10px;
+.main-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  
 }
-.main h3{
-  font-size: 40px;
-  margin-top: 10px;
-}.main h4{
-  font-size: 20px;
-  margin-top: 10px;
+
+.main card{
+  margin-right: 400px;
+}
+
+.main-btn{
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+}
+.main-btn button{
+  height: 40px;
+  width: 100px;
+  background-color: #fff;
+  color:red; 
+}
+
+button{
+  margin: 40px;
+  border-radius: 10px;
+}
+
+card{
+  height: 400px;
+  width: 300px;
+  background-color: rgb(16, 16, 17);
+  border-radius: 30px;
+}
+
+card img{
+  height: 200px;
+  width: 300px;
+  border-radius: 30px;
 }
